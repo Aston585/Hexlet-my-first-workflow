@@ -1,8 +1,8 @@
-name: say-hello
+name: hello-world
 on: push
 jobs:
   printing:
-    runs-on: ubuntu latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - run: make say-hello
